@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/*  */
+.admision-1-bg{
+    background-color: #313e5dc6;
+}
+.admision1-bg{
+    background-image: url(images/background/bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}

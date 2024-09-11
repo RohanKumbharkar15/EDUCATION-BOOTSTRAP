@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header-1{
+    height: 60px;
+    background-color: #F8F9FA;
+}
+.header-2{
+    /* height: 100px; */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.header-2-a{
+    font-size: 18px;
+}
+.span-1:hover{
+    color:rgba(29, 220, 29, 0.841);
+}
+/* section 1 */
+.s1-bg{
+    background-image: url("./images/background/hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.s1-h1 h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+/* section 2 */
+ .s2-span{
+    font-size: 40px;
+ }
+ /* section 3 */
+.s3-99{
+   right: 0px;
+   top: 133px;
+}
+/* section 8 */
+.s8-img2{
+   width: 90px;
+   height: 90px;
+}
+.s8-img2 img{
+   width: 100%;
+   height: 100%;
+}
+ .section-4{
+    background-color:#2F4A70;
+ }
+ /* section 6 */
+ .s6-img{
+    width: 60px;
+    height: 60px;
+ }
+ .s6-img img{
+    width: 100%;
+    height: 100%;
+ }
+ /* section 7 */
+ .section-7{
+    background-image: url("images/background/hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+ }
+ .s7-div{
+    background-color: #2f486ce0;
+    z-index: 2;
+    padding: 100px 0px;
+ }
+ .s7-p{
+    color: #7697C6;
+ }
+ .s7-img1{
+   width: 60px;
+   height: 60px;
+ }
+ .s7-img1 img{
+   width: 100%;
+   height: 100%;
+ }
+ /* footer */
+ .foot-1{
+    height: 300px;
+    background-image: url("images/background/bg_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+ }
+ .foot1-con{
+    background-color: #2f4a70cf;
+    z-index: 2;
+ }
+ .ul-foot{
+    padding-left: 0;
+ }
+ .foot-2{
+    background-color: #183661;
+ }
+ .foot-hover{
+   color: rgb(51, 195, 51);
+ }
+ .foot-hover:hover{
+   color: white;
+ }
+@media(min-width:768px)
+{
+   .s3-99{
+      right: 0px;
+      top: 156px;
+   }
+   .s7-div{
+      padding: 100px 50px;
+  }
+}
+@media(min-width:1440px)
+{
+   .s3-99{
+      right: 0px;
+      top: 204px;
+   }
+   .s8-col2{
+      margin-top: 103px;
+   }
+}
+
+ 
